@@ -1,3 +1,8 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/cerulean-blue-curve-frame-template-vector_53876-136095.jpg?w=900&t=st=1720640686~exp=1720641286~hmac=9018ea1de594df463c3fdcb05570bacdf47125ac4a53c60085609a4b7d49ef30");
+    background-size: cover;
+}
+
 .container{
     border: 1px solid gray;
     border-radius: 2%;
@@ -45,4 +50,25 @@
 
 .input-container > input{
     transition: 2s ease-in;
+}
+
+@media (min-width:320px) {
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }    
+}
+
+@media (min-width:360px){
+    body{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width:480px){
+    body{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
 }
